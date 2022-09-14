@@ -1,9 +1,44 @@
-.wrap{
+.simpsons{
     display: flex;
+    justify-content: center;
+    height: 800px;
+    align-items: center;
+}
+
+
+.char{
+    background: #5b4747;
+
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 50px 5px 5px 5px;
+
+    display: flex;
+    width: 40%;
+}
+
+.char > img{
+    width: 50%;
+    height: 100%;
+}
+
+.info{
+    color: white;
+    width: 75%;
+    text-align: center;
+}
+
+.rickMorty{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    background: #323336;
+
 }
 
 img{
-    width: 165px;
-    height: 300px;
+    width: 207px;
+    height: 455px;
 
 }
