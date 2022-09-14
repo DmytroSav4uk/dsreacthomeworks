@@ -2,12 +2,8 @@ import Simpson from "./Characters/simpson";
 import "./App.css";
 import Characters from "./Characters/rickmorty";
 
-
-
 function App() {
-
     return (
-
         <div className='main'>
             <div className='simpsons'>
                 <Simpson name={'Bart'} pic={'https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png'}/>
@@ -16,9 +12,7 @@ function App() {
                 <Simpson name={'Lisa'} pic={'https://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png'}/>
                 <Simpson name={'Maggie'} pic={'https://upload.wikimedia.org/wikipedia/en/9/9d/Maggie_Simpson.png'}/>
             </div>
-
                 <Characters/>
-
          </div>
             )}
 
