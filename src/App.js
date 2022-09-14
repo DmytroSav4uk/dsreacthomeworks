@@ -1,6 +1,6 @@
-import Simpson from "./Characters/simpson";
+import Simpson from "./Characters/Simpson";
 import "./App.css";
-import Characters from "./Characters/rickmorty";
+import Characters from "./Characters/Rickmorty";
 
 function App() {
     return (

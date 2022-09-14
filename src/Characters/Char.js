@@ -1,4 +1,4 @@
-const Char = (props) => {
+const Har = (props) => {
     let {id ,name,status,species,gender,image} = props;
     return (
         <div className='char'>
@@ -13,4 +13,4 @@ const Char = (props) => {
     )
 }
 
-export default Char;
+export default Har;
