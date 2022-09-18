@@ -1,19 +1,58 @@
+
 .users{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.user{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
-    width: 40%;
-    margin: 5px;
 }
 
-a{
-    padding-bottom:10px ;
+
+.userDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.usersWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user{
+    width: 25%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user > h2 {
+    font-size: 20px;
+}
+
+
+
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.experiments{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+.notdisplay{
+    display: none;
 }
