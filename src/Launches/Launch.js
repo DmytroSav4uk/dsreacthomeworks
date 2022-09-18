@@ -7,8 +7,5 @@ if (item.launch_year != 2020){
             <h1>{item.mission_name}</h1>
             <h3>launch year: {item.launch_year}</h3>
             <img src={item.links.mission_patch_small} alt={'image'}/>
-        </div>
-    )
-}
-}
+        </div>)}}
 export default Launch;

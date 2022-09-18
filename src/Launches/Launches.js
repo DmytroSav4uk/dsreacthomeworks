@@ -6,7 +6,6 @@ function Launches() {
 
     let [launches, setLaunches] = useState([]);
 
-
 useEffect(() =>{
     getLaunches().then(value => {
         console.log(value)
@@ -14,14 +13,9 @@ useEffect(() =>{
         .catch(err => {console.log(err)})
 }, [])
 
-
 return(
     <div className={'launches'}>
         {launches.map((item, index) => <Launch item ={item} key = {index}/>)}
-    </div>
-)
-
-}
-
+    </div>)}
 
 export default Launches;
