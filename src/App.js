@@ -1,14 +1,15 @@
 import Users from "./Users/Users";
  import "./styles/homework2.css"
 import ChooseUser from "./Services/ChooseUser";
-import Simpson from "./Characters/Simpson";
-import Rickmorty from "./Characters/Rickmorty";
+import Launches from "./Launches/Launches";
+
 
 function App() {
     return (
 <div>
-    <Users/>
+            <Users/>
             <ChooseUser/>
+            <Launches/>
 </div>
     )
 
